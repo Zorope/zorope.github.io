@@ -28,6 +28,11 @@ h1, h2, h3
 	line-height: 0px;
 }
 
+p
+{
+    text-align: center;
+}
+
 a
 {
 	text-decoration: none;
