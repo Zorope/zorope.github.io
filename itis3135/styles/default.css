@@ -30,7 +30,9 @@ h1, h2, h3
 
 p
 {
+    font-family: Georgia, Helvetica;
     text-align: center;
+    line-height: 0px;
 }
 
 a
