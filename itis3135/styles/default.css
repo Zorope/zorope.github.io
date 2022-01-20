@@ -1,8 +1,8 @@
 body
 {
 	font-family: Georgia, Helvetica;
-	color: rgb(15, 131, 177) ;
-	background-color: rgb(12, 1, 1);
+	color: #59C3C3;
+	background-color: #000000;
 
 	margin-left: 150px;
 	margin-right: 150px;
@@ -31,14 +31,14 @@ h1, h2, h3
 a
 {
 	text-decoration: none;
-	color: rgb(92, 236, 229);
+	color: #FFC857;
 	font-weight: bold;
 }
 
 a:hover
 {
 	text-decoration: underline;
-	color: rgb(60, 179, 86);
+	color: #FE5F55;
 }
 
 figure
