@@ -10,9 +10,10 @@ body
 
 header, footer
 {
-	margin-top: 50px;
+	margin-top: 70px;
 	margin-bottom: 50px;
 	text-align: center;
+	background-color: #ECF3F3;
 }
 
 main
