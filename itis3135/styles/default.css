@@ -61,7 +61,8 @@ table, th, td, tr
 	border: 2px solid black;
 }
 
-.center
+.centerlist
 {
 	text-align: center;
+	list-style-position: inside;
 }
