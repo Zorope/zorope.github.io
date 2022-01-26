@@ -66,3 +66,9 @@ table, th, td, tr
 	text-align: center;
 	list-style-position: inside;
 }
+
+table tr:nth-child(even)
+{
+	background-color: #777;
+	color: #fff;
+}
