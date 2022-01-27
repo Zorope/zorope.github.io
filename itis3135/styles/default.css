@@ -58,6 +58,7 @@ nav
 
 table, td, tr, th
 {
+	box-align: center;
 	border: 2px solid black;
 }
 
