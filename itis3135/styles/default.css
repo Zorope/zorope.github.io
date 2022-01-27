@@ -82,5 +82,7 @@ table tr:nth-child(even)
 .formformat
 {
 	text-align: center;
-	background-color: floralwhite;
+	background-color: #4A306D;
+	margin-left: 300px;
+	margin-right: 300px;
 }
