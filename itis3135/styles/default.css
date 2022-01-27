@@ -1,8 +1,8 @@
 body
 {
 	font-family: Georgia, Helvetica;
-	color: rgb(89, 195, 195);
-	background-color: rgb(32, 44, 89);
+	color: #F4E04D;
+	background-color: #800020;
 
 	margin-left: 150px;
 	margin-right: 150px;
@@ -31,7 +31,7 @@ h1, h2, h3
 a
 {
 	text-decoration: none;
-	color: rgb(255, 200, 87);
+	color: #D6EDFF;
 	font-weight: bold;
 }
 
