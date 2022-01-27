@@ -31,7 +31,7 @@ h1, h2, h3
 a
 {
 	text-decoration: none;
-	color: #4C4B63;
+	color: #B0FE76;
 	font-weight: bold;
 }
 
@@ -82,5 +82,5 @@ table tr:nth-child(even)
 .formformat
 {
 	text-align: center;
-	background-color: #4A306D;
+	background-color: #26547C;
 }
