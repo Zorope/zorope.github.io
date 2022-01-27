@@ -65,7 +65,7 @@ table, td, tr, th
 
 .centerlist
 {
-	text-align: center;
+	/*text-align: center;*/
 	list-style-position: inside;
 }
 
