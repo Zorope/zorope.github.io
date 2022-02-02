@@ -30,14 +30,14 @@ h1, h2, h3
 a
 {
 	text-decoration: none;
-	color: #090C9B;
+	color: #143109;
 	font-weight: bold;
 }
 
 a:hover
 {
 	text-decoration: underline;
-	color: #B4C5E4;
+	color: #AAAE7F;
 }
 
 figure
