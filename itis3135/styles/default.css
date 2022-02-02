@@ -1,8 +1,8 @@
 body
 {
 	font-family: Helvetica, Georgia;
-	color: #DCFFFD;
-	background-color: #800020;
+	color: #642CA9;
+	background-color: #C0B9DD;
 	margin-left: 150px;
 	margin-right: 150px;
 }
@@ -30,14 +30,14 @@ h1, h2, h3
 a
 {
 	text-decoration: none;
-	color: #B0FE76;
+	color: #090C9B;
 	font-weight: bold;
 }
 
 a:hover
 {
 	text-decoration: underline;
-	color: rgb(254, 95, 85);
+	color: #B4C5E4;
 }
 
 figure
