@@ -6,15 +6,15 @@
 	<title>Bryan Xiong-Bergundy Xeruses-ITIS3135-First-Javascript</title>
 	<script src="scripts/firstscripts.js"></script>
 </head>
-<body>
+<body onload="questions()">
 	<header>
 		<h1>Bryan Xiong ◇──◆ ITIS3135 ◇──◆ Burgundy Xeruses</h1>
 		<div data-include="components/header.html"></div>
 	</header>
 	<main>
 		<h2>First Javascript</h2>
-		<h3>Today is: <script src="scripts/firstscripts.js">getTodaysDate();</script> and the time is: <script src="getTime"></script></h3>
-		<h3>Bergundy Xeruses Welcomes You, <script scr="getFullName()"></script>! You also said that you are feeling <script src="getEmotion()"></script></h3>
+		<h3 id="todaysDate"></h3>
+		<h3 id="welcome"></h3>
 	</main>
 	<footer>
 		<div data-include="components/footer.html"></div>
