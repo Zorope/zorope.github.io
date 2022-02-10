@@ -49,8 +49,8 @@ function getTime()
 
 function questions()
 {
-    setFullName(prompt("Enter your full name"));
-    setEmotion(prompt("How are you feeling today?"));
+    setFullName(document.getElementById("fullName").value);
+    setEmotion(document.getElementById("feeling").value);
 
     document.getElementById("todaysDate").innerHTML = "Today is: " + getTodaysDate() + ", and the current time is: " + getTime();
     document.getElementById("welcome").innerHTML = "Bergundy Xeruses are happy to see you, " + getFullName() + " Also we see that you are feeling " + getEmotion() + ".";
