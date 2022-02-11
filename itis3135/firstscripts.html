@@ -21,6 +21,8 @@
 			<br>
 			<br>
 			<input onclick="questions()" type = "button" name = "submit" id = "submit" value ="submit">
+			<p id="todaysDate"></p>
+			<p id="welcome"></p>
 		</h3>
 		<h4>Some cool buttons</h4>
 		<button onclick="insult()">Want to be insulted?</button>
@@ -33,9 +35,16 @@
 		<br>
 		<button onclick="birthMonth()">Want me to guess your birth month?</button>
 		<p id="guess"></p>
-		<button onclick="right()">Yes!</button>
+		<button id="yes" onclick="right()" style="display: none;">Yes!</button>
 		<br>
-		<button onclick="wrong()">Nope!</button>
+		<button id="no" onclick="wrong()" style="display: none;">Nope!</button>
+		<br>
+		<button onclick="luck()">Luck reading</button>
+		<p id="luck"></p>
+		<br>
+		<br>
+		<button onclick="facts()">Interesting Facts</button>
+		<p id="facts"></p>
 	</main>
 	<footer>
 		<div data-include="components/footer.html"></div>

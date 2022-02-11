@@ -36,11 +36,11 @@ function getTime()
     
     var hour = today.getHours();
     var ampm;
-    if(today.getMinutes() > 10)
+    if(today.getMinutes() < 10)
     {
         var time = today.getHours()%12 + ":" + "0" + today.getMinutes();
     }
-    if(today.getMinutes() < 10)
+    if(today.getMinutes() >= 10)
     {
         var time = today.getHours()%12 + ":" + today.getMinutes();
     }
@@ -74,11 +74,15 @@ function sum()
     document.getElementById("sum").innerHTML = 10+10;
 }
 
+
+
 function birthMonth()
 {
     var months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
     var guess = Math.floor(Math.random()*12);
     document.getElementById("guess").innerHTML = "Is it " + months[guess] + "?";
+    document.getElementById("yes").style.display = 'block';
+    document.getElementById("no").style.display = "block";
 }
 
 function wrong()
@@ -91,4 +95,18 @@ function wrong()
 function right()
 {
     document.getElementById("guess").innerHTML = "Yes, lets go!";
+}
+
+function luck()
+{
+    var fortunes = ["Extremely Unlucky", "Neutral Luck", "Above Average Luck", "Super Lucky"];
+    var result = Math.floor(Math.random()*4);
+    document.getElementById("luck").innerHTML = "Your luck today is: " + fortunes[result] + ".";
+}
+
+function facts()
+{
+    var fortunes = ["Hot water freezes faster then cold", "Coca-Cola was originally green", "Women blind nearly twice as much as men", "Crocodiles can't stick their tongues out"];
+    var result = Math.floor(Math.random()*4);
+    document.getElementById("facts").innerHTML = fortunes[result];
 }
