@@ -106,7 +106,7 @@ function luck()
 
 function facts()
 {
-    var fortunes = ["Hot water freezes faster then cold", "Coca-Cola was originally green", "Women blind nearly twice as much as men", "Crocodiles can't stick their tongues out"];
+    var fortunes = ["Hot water freezes faster then cold", "Coca-Cola was originally green", "Women blink nearly twice as much as men", "Crocodiles can't stick their tongues out"];
     var result = Math.floor(Math.random()*4);
     document.getElementById("facts").innerHTML = fortunes[result];
 }
