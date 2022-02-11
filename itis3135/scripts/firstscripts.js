@@ -33,14 +33,22 @@ function getTodaysDate()
 function getTime()
 {
     var today = new Date();
-    var time = today.getHours()%12 + ":" + today.getMinutes();
+    
     var hour = today.getHours();
     var ampm;
+    if(today.getMinutes() > 10)
+    {
+        var time = today.getHours()%12 + ":" + "0" + today.getMinutes();
+    }
+    if(today.getMinutes() < 10)
+    {
+        var time = today.getHours()%12 + ":" + today.getMinutes();
+    }
     if(hour >= 12)
     {
         ampm = " pm"
     }
-    else
+    if(hour <= 12)
     {
         ampm = " am"
     }
