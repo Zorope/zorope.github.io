@@ -61,7 +61,7 @@ function questions()
     setEmotion(document.getElementById("feeling").value);
 
     document.getElementById("todaysDate").innerHTML = "Today is: " + getTodaysDate() + ", and the current time is: " + getTime();
-    document.getElementById("welcome").innerHTML = "Bergundy Xeruses are happy to see you, " + getFullName() + " Also we see that you are feeling " + getEmotion() + ".";
+    document.getElementById("welcome").innerHTML = "Bergundy Xeruses are happy to see you, " + getFullName() + ". Also we see that you are feeling " + getEmotion() + ".";
 }
 
 function insult()
