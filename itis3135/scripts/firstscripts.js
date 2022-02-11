@@ -63,3 +63,32 @@ function questions()
     document.getElementById("todaysDate").innerHTML = "Today is: " + getTodaysDate() + ", and the current time is: " + getTime();
     document.getElementById("welcome").innerHTML = "Bergundy Xeruses are happy to see you, " + getFullName() + " Also we see that you are feeling " + getEmotion() + ".";
 }
+
+function insult()
+{
+    document.getElementById("insult").innerHTML = "You don't look as pretty today!"
+}
+
+function sum()
+{
+    document.getElementById("sum").innerHTML = 10+10;
+}
+
+function birthMonth()
+{
+    var months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+    var guess = Math.floor(Math.random()*12);
+    document.getElementById("guess").innerHTML = "Is it " + months[guess] + "?";
+}
+
+function wrong()
+{
+    var months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+    var guess = Math.floor(Math.random()*12);
+    document.getElementById("guess").innerHTML = "Then is it " + months[guess] + "?";
+}
+
+function right()
+{
+    document.getElementById("guess").innerHTML = "Yes, lets go!";
+}

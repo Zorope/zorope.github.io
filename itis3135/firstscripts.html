@@ -13,7 +13,7 @@
 	</header>
 	<main>
 		<h2>First Javascript</h2>
-		<p>
+		<h3>
 			What is your name?: <input type = "text" id = "fullName">
 			<br>
 			<br>
@@ -21,9 +21,21 @@
 			<br>
 			<br>
 			<input onclick="questions()" type = "button" name = "submit" id = "submit" value ="submit">
-		</p>
-		<h3 id="todaysDate"></h3>
-		<h3 id="welcome"></h3>
+		</h3>
+		<h4>Some cool buttons</h4>
+		<button onclick="insult()">Want to be insulted?</button>
+		<p id="insult"></p>
+		<br>
+		<br>
+		<button onclick="sum()">Want to know what 10 + 10 equals?</button>
+		<p id="sum"></p>
+		<br>
+		<br>
+		<button onclick="birthMonth()">Want me to guess your birth month?</button>
+		<p id="guess"></p>
+		<button onclick="right()">Yes!</button>
+		<br>
+		<button onclick="wrong()">Nope!</button>
 	</main>
 	<footer>
 		<div data-include="components/footer.html"></div>
