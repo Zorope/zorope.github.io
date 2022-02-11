@@ -33,7 +33,7 @@ function getTodaysDate()
 function getTime()
 {
     var today = new Date();
-    var time = today.getHours()%12 + ":" + today.getMinutes() + ":" + today.getSeconds();
+    var time = today.getHours()%12 + ":" + today.getMinutes();
     var hour = today.getHours();
     var ampm;
     if(hour >= 12)
