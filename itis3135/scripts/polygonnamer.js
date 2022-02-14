@@ -1,23 +1,5 @@
 
-function polygonNamer()
-{
-    var sides = prompt("Bergundy Xeruses is happy to see you! Please type in a number between 1-10 and we will name that polygon for you!");
-    var input = parseFloat(sides);
-    var i = 0;
-    while(i == 0)
-    {
-        if(validateEntry(input) == true)
-        {
-            var shape = getShape(input);
-            alert(shape);
-            i = 1;
-        }
-        if(validateEntry(input) == false)
-        {
-            input = parseFloat(prompt("Looks like you entered an invalid input! Please enter a number 1-10."));
-        }
-    }
-}
+document.onload = polygonNamer();
 
 function validateEntry(sides)
 {
@@ -74,3 +56,24 @@ function getShape(sides)
             break;
     }
 }
+
+function polygonNamer()
+{
+    var sides = prompt("Bergundy Xeruses is happy to see you! Please type in a number between 1-10 and we will name that polygon for you!");
+    var input = parseFloat(sides);
+    var i = 0;
+    while(i == 0)
+    {
+        if(validateEntry(input) == true)
+        {
+            var shape = getShape(input);
+            alert(shape);
+            i = 1;
+        }
+        if(validateEntry(input) == false)
+        {
+            input = parseFloat(prompt("Looks like you entered an invalid input! Please enter a number 1-10."));
+        }
+    }
+}
+
