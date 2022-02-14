@@ -1,6 +1,6 @@
-
+/**Loads polygon naming function on page load*/
 document.onload = polygonNamer();
-
+/**Checks to make sure sides inputted are valid to the requirements*/
 function validateEntry(sides)
 {
     if (typeof sides == 'number') 
@@ -15,14 +15,14 @@ function validateEntry(sides)
         }
     }
 }
-
+/**Rounds inputted number and checks what shape they inputted*/
 function getShape(sides)
 {
     sides = Math.round(Math.abs(sides));
     switch(sides)
     {
         case 0:
-            return "There is no such polygon with this many size.";
+            return "There is no such polygon with this many sides.";
             break;
         case 1:
             return "One side means that it is a monogon!";
@@ -56,12 +56,13 @@ function getShape(sides)
             break;
     }
 }
-
+/**Function will prompt user, check sides if valid, and alert the user what shape they wanted*/
 function polygonNamer()
 {
     var sides = prompt("Bergundy Xeruses is happy to see you! Please type in a number between 1-10 and we will name that polygon for you!");
     var input = parseFloat(sides);
     var i = 0;
+    /**Loops until user enters a valid number*/
     while(i == 0)
     {
         if(validateEntry(input) == true)
