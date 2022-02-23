@@ -13,33 +13,35 @@
 	</header>
 	<main>
 		<h2>Calculator Try</h2>
-        <form class="centering" id="calc">
-            <input type="text" id="screen" class="buttondesign">
+        <div class="centering" id="calc">
+            <input type="text" id="screen" value="" class="buttondesign">
             <br>
             <br>
-			<button type="button" class="buttondesign" onclick="calculator(1)">1</button>
-			<button type="button" class="buttondesign" onclick="calculator(2)">2</button>
-			<button type="button" class="buttondesign" onclick="calculator(3)">3</button>
-			<button type="button" class="buttondesign" onclick="divide()">/</button>
+			<button type="button" class="buttondesign" id="button1" value="1">1</button>
+			<button type="button" class="buttondesign" id="button2" value="2">2</button>
+			<button type="button" class="buttondesign" id="button3" value="3">3</button>
+			<button type="button" class="buttondesign" id="buttonDecrement" value="--">--</button>
+			<button type="button" class="buttondesign" id="buttonDivide" value="/">/</button>
 			<br>
 			<br>
-			<button type="button" class="buttondesign" onclick="calculator(4)">4</button>
-			<button type="button" class="buttondesign" onclick="calculator(5)">5</button>
-			<button type="button" class="buttondesign" onclick="calculator(6)">6</button>
-			<button type="button" class="buttondesign" onclick="add()">+</button>
+			<button type="button" class="buttondesign" id="button4" value="4">4</button>
+			<button type="button" class="buttondesign" id="button5" value="5">5</button>
+			<button type="button" class="buttondesign" id="button6" value="6">6</button>
+			<button type="button" class="buttondesign" id="buttonIncrement" value="++">++</button>
+			<button type="button" class="buttondesign" id="buttonAdd" value="+">+</button>
 			<br>
 			<br>
-			<button type="button" class="buttondesign" onclick="calculator(7)">7</button>
-			<button type="button" class="buttondesign" onclick="calculator(8)">8</button>
-			<button type="button" class="buttondesign" onclick="calculator(9)">9</button>
-			<button type="button" class="buttondesign" onclick="subtract()">-</button>
+			<button type="button" class="buttondesign" id="button7" value="7">7</button>
+			<button type="button" class="buttondesign" id="button8" value="8">8</button>
+			<button type="button" class="buttondesign" id="button9" value="9">9</button>
+			<button type="button" class="buttondesign" id="buttonMinus" value="-">-</button>
 			<br>
 			<br>
-			<button type="button" class="buttondesign" onclick="clean()">clear</button>
-			<button type="button" class="buttondesign" onclick="calculator(0)">0</button>
-			<button type="button" class="buttondesign" onclick="multiply()">x</button>
-			<button type="button" class="buttondesign" onclick="calculate()">=</button>
-		</form>
+			<button type="button" class="buttondesign" id="buttonClear" value="clear">clear</button>
+			<button type="button" class="buttondesign" id="button0" value="0">0</button>
+			<button type="button" class="buttondesign" id="buttonMultiply" value="x">x</button>
+			<button type="button" class="buttondesign" id="buttonCalc" value="calculate">=</button>
+		</div>
 	</main>
 	<footer>
 		<div data-include="components/footer.html"></div>
