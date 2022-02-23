@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<link href="styles/default.css" rel="stylesheet" type="text/css">
 	<title>Bryan Xiong-Bergundy Xeruses-ITIS3135-Calculator Try</title>
+	<script src="scripts/calculator_try.js"></script>
 </head>
 <body>
 	<header>
@@ -12,15 +13,33 @@
 	</header>
 	<main>
 		<h2>Calculator Try</h2>
-        <div class="centering" id="calc">
+        <form class="centering" id="calc">
             <input type="text" id="screen" class="buttondesign">
             <br>
             <br>
-            <input type="button" value="1" id="button1" class="buttondesign">
-            <input type="button" value="2" id="button1" class="buttondesign">
-            <input type="button" value="3" id="button1" class="buttondesign">
-            <input type="button" value="/" id="button1" class="buttondesign">
-        </div>
+			<button type="button" class="buttondesign" onclick="calculator(1)">1</button>
+			<button type="button" class="buttondesign" onclick="calculator(2)">2</button>
+			<button type="button" class="buttondesign" onclick="calculator(3)">3</button>
+			<button type="button" class="buttondesign" onclick="divide()">/</button>
+			<br>
+			<br>
+			<button type="button" class="buttondesign" onclick="calculator(4)">4</button>
+			<button type="button" class="buttondesign" onclick="calculator(5)">5</button>
+			<button type="button" class="buttondesign" onclick="calculator(6)">6</button>
+			<button type="button" class="buttondesign" onclick="add()">+</button>
+			<br>
+			<br>
+			<button type="button" class="buttondesign" onclick="calculator(7)">7</button>
+			<button type="button" class="buttondesign" onclick="calculator(8)">8</button>
+			<button type="button" class="buttondesign" onclick="calculator(9)">9</button>
+			<button type="button" class="buttondesign" onclick="subtract()">-</button>
+			<br>
+			<br>
+			<button type="button" class="buttondesign" onclick="clean()">clear</button>
+			<button type="button" class="buttondesign" onclick="calculator(0)">0</button>
+			<button type="button" class="buttondesign" onclick="multiply()">x</button>
+			<button type="button" class="buttondesign" onclick="calculate()">=</button>
+		</form>
 	</main>
 	<footer>
 		<div data-include="components/footer.html"></div>
