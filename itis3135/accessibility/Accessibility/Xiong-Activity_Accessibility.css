@@ -16,8 +16,7 @@ h2 {
 }
 
 h1 {
-  font-size: 60px;
-  padding-top: 20px;
+  font-size: 30px;
 
 }
 
@@ -92,4 +91,20 @@ abbr {
   cursor: pointer;
 }
 
+.resize
+{
+  width: 100px;
+  height: 100px;
+}
+
+.textcolor
+{
+  color: burlywood;
+}
+
+.buttonbackground
+{
+  color: #F5F5F5;
+  background-color: #2F4F4F;
+}
 

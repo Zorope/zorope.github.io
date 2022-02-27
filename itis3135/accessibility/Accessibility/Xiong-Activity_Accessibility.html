@@ -9,49 +9,73 @@
 
   <!-- css -->
   <link rel="stylesheet" href="Xiong-Activity_Accessibility.css">
-  <title>Test For Accessibility</title>
+  <title>Bryan Xiong - ITIS 3135 - Test For Accessibility</title>
 
 </head>
 
 <body>
   <header>
-    <h1>Candle Delight</h1>
+    <h1>Bryan Xiong - ITIS3135</h1>
   </header>
   <main>
-
+    <h2>Accessibility</h2>
+    <h3>Candle Delight</h3>
     <table class="center">
 
       <caption>Candles</caption>
       <thead>
         <tr>
           <!-- identify table headers <th> with scope attribute -->
-          <th scope="col">TYPE</th>
-          <th scope="col">PRODUCT</th>
-          <th scope="col">FEATURES</th>
+          <th scope="col" class="textcolor">TYPE</th>
+          <th scope="col" class="textcolor">PRODUCT</th>
+          <th scope="col" class="textcolor">FEATURES</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th></th>
-          <td></td>
-          <td></td>   
+          <th scope="row" class="textcolor">Birthday Candles</th>
+          <td><img src="images/Birthday-Candles.jpg" alt="Birthday candles" class="resize"></td>
+          <td>
+            <ol>
+              <li>Comes in a range of fun, virbant colors</li>
+              <li>Small and slender forms allow you to add as many or as few of them to a dessert as you desire</li>
+              <li>Offers a way to personalize customers' desserts on birthdays and anniversaries</li>
+            </ol>
+          </td>   
         </td>
         </tr>
         <tr>
-            <th></th>
-            <td></td>
-            <td></td>
+            <th scope="row" class="textcolor">Votives</th>
+            <td><img src="images/voltives.jpeg" alt="Voltives" class="resize"></td>
+            <td>
+              <ol>
+                <li>Inexpensive and easy to use</li>
+                <li>Bigger than tea lights to provide longer burn times, making them better for longer events</li>
+              </ol>
+            </td>
           </tr>
           <tr>
-              <th></th>
-              <td></td>
-              <td></td>
+              <th scope="row" class="textcolor">Taper Candles</th>
+              <td><img src="images/taper-candles.jpg" alt="taper candles" class="resize"></td>
+              <td>
+                <ol>
+                  <li>Commonly known as window candles</li>
+                  <li>Long, slender constructions add dimension to table tops</li>
+                </ol>
+              </td>
             </tr>
       </tbody>
     </table>
      <!--Add the form here-->
-    
-   
+    <h2 class="textcolor">Enter your name and phone number to win a gift!</h2>
+    <form action="#">
+      <label for="name" class="textcolor">Name:</label>
+      <input id="name" autocomplete="name" aria-required="true">
+      <label for="phone" class="textcolor">Phone:</label>
+      <input id="phone" autocomplete="phone">
+      <input type="submit" name="submit" value="submit" aria-required="true" class="buttonbackground">
+    </form>
+
     <div class="whitespace"></div>
     <a href="https://teachaccess.github.io/tutorial/#/12">Click here to find more about accessibility</a>
     <div class="whitespace"></div>
@@ -61,7 +85,12 @@
   </main>
 
   <footer>
-
+      <a href="https://validator.w3.org/check?uri=referer">
+          <img src="images/button_validation_html5.png" width="88" height="31" alt="Link to HTML validator">
+      </a>
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">
+          <img src="images/button_validation_css.png" width="88" height="31" alt="Link to CSS validator">
+      </a>
   </footer>
 </body>
 </html>
