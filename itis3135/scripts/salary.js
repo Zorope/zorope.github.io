@@ -57,15 +57,13 @@ function addSalary()
     {
         alert("Please enter a valid salary for your user.");
     }
-    //Checks to make sure that name is a string and not empty
-    else if(name == "" || typeof name != 'string')
-    {
-        alert("Please enter a valid name for your user.");
-    }
-    //When both inputs are valid it is put into the system
+    //When correct salary inputted then it will execute to change salary
     else
     {
-        people.push(name);
-        money.push(salary);
+        if(people.includes(name))
+        {
+            var pos = people.indexOf(name);
+            money[pos] = salary;
+        }
     }
 }
