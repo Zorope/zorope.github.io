@@ -79,6 +79,11 @@ ol
 	margin-left: auto;
 	margin-right: auto;
 }
+.ulslideshow
+{
+	width: 25%;
+	margin: auto;
+}
 .formformat
 {
 	text-align: center;
@@ -94,4 +99,12 @@ ol
 	border: 4px solid;
 	border-radius: 15px;
 	font-size: 30px;
+}
+.lislideshow
+{
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
