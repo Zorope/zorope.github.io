@@ -26,11 +26,20 @@
 			text-align: center;
 			font-size: 20px;
 		}
+        h4
+        {
+            font-size: 20px;
+        }
 		header, footer
 		{
 			text-align: center;
 			margin-top: 25px;
 		}
+        a
+        {
+            color: #FBFEF9;
+            text-decoration: none;
+        }
         .navbar
         {
             border: 3px solid black;
@@ -45,8 +54,8 @@
             transition: 0.3s;
             font-size: 20;
             padding: 20px 20px;
-            margin-right: 25px;
-            margin-left: 25px;
+            margin-right: 20px;
+            margin-left: 20px;
         }
         .contentbutton:hover
         {
@@ -60,6 +69,23 @@
         {
             display: none;
         }
+        .textblock
+        {
+            border: 3px solid;
+            background-color: #242331;
+            padding: 5px 5px;
+        }
+        .text
+        {
+            font-size: 20px;
+        }
+        .centerimage
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
 	</style>
 </head>
 <body>
@@ -71,23 +97,167 @@
         <br>
         <div class="navbar">
             <button class="contentbutton" onclick="esports(event, 'home')">Home</button>
-            <button class="contentbutton" onclick="esports(event, 'about')">About</button>
+            <button class="contentbutton" onclick="esports(event, 'about')">About Me</button>
             <button class="contentbutton" onclick="esports(event, 'majortourneys')">Major Tournaments</button>
-            <button class="contentbutton">Esport Organizations</button>
-            <button class="contentbutton">Popular Esport Games</button>
-            <button class="contentbutton">Esports Importance</button>
+            <button class="contentbutton" onclick="esports(event, 'esportorgs')">Esport Organizations</button>
+            <button class="contentbutton" onclick="esports(event, 'popgames')">Popular Esport Games</button>
+            <button class="contentbutton" onclick="esports(event, 'esportsimpor')">Esports Importance</button>
         </div>
         <div id="home" class="contentpage" style="display: block">
             <h2>Home</h2>
-            <p>Hello, welcome to the world of esports!</p>
+            <img src="images/igor-karimov-9AmKnNZw3GA-unsplash.jpg" class="centerimage" alt="ps4 controller">
+            <br>
+            <div class="textblock">
+                <h4>Welcome!</h4>
+                <p class="text">Hello, welcome to the world of esports! I hope you enojoy your time and come to learn and love esports like I do!</p>
+            </div>
+            <br>
+            <div class="textblock">
+                <h4>What is an Esport?</h4>
+                <ul>
+                    <li>
+                        Esports refers to the competeitive scene in gaming. 
+                        Its similar to the NFL or NBA with leagues of all types of games and in many different countries. 
+                    </li>
+                    <li>
+                        Many modern games today easily create competitive scenes although they could die out fast. 
+                        Unlinke the NFL or NBA many competitive scenes aren't 
+                        sponsored by big companies but rather are supported by their communities.
+                    </li>
+                    <li>
+                        This makes esports heavily community based and not main stream. However, many esports have started to break that
+                        mold and has been gathering a lot of viewership and sponsors from outside companies.
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <div class="textblock">
+                <h4>Why esports is amazing!</h4>
+                <p>
+                    Esports are heavily community based and once you join a scene you will find hundreds of people talking about the games
+                    whether it be an online forum, community group, or social media. Like soccor or baseball there are hundreds of teams around
+                    the world that you can root for. Watching players play a game you love at the highest level is bound to make anyone happy.
+                    With players having their platform mainly be a computer it allows for teams to connect more with their fans by streaming live on platforms
+                    like twitch.
+                </p>
+                <p>
+                    Esports allows you to easily connect with the players and organizations that run the tournaments. Givng a great
+                    way to connect with the game you love more and also allows you to grow with the community while directly choosing
+                    what happens. Theres nothing better than seeing a scene you are apart of grow into the mainstream.
+                </p>
+            </div>
         </div>
         <div id="about" class="contentpage">
-            <h2>About Us</h2>
-            <p>yes</p>
+            <h2>About Me</h2>
+            <img src="images/emanuel-ekstrom-I45hdPF5Na0-unsplash.jpg" class="centerimage" alt="CSGO major">
+            <br>
+            <div class="textblock">
+                <h4>Background:</h4>
+                <p>
+                    I started following esports when I was 13 years old. My first esports scene was Counter-Strike: Global Offensive and I stayed
+                    in that scene for around 3 years following my favorite team Cloud 9. Seeing them come close to winning many majors. After
+                    watching this scene for a few years it got me hooked on esports and made me understand peoples love for events like the
+                    Super Bowl. 
+                </p>
+                <p>
+                    Today I mainly follow 2 esport scenes being League of Legends and Apex Legends. Throughout the years I find it amazing how no matter
+                    the genere the game is there is a sense of unity in all communities. Every competitive scene in esports know of each other and understand
+                    most rules or mechanics within a game even if they haven't played it much.
+                </p>
+                <p>
+                    I made this website to apperciate scenes that I had been apart of and scenes I am apart of. I have many friends that also
+                    enjoy these tournaments and often its hard to follow which tournaments are big for other games. Often esports have many 
+                    small tournaments and then a major one at the end of the season like most sports. However, often these end of season tournaments
+                    involve the best teams from every region around the world. Making esports even more exiciting to root for your region and see
+                    how amazing other regions are at the game as well. This is why I love esports and it community.
+                </p>
+            </div>
         </div>
         <div id="majortourneys" class="contentpage">
             <h2>Tournaments</h2>
-            <p>yes</p>
+            <img src="images/ella-don-fK5Oomnc-Wk-unsplash.jpg" alt="gaming lan house" class="centerimage">
+            <br>
+            <div class="textblock">
+                <h4>Major Tournaments:</h4>
+                <p>These are major tournaments for popular esport scenes to look out for (click tournaments for more info):</p>
+                <ul>
+                    <li><strong>Counter-Strike: Global Offensive:</strong> <a href="https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive_Major_Championships" target="_blank">Dreamhack and Katowice</a></li>
+                    <li><strong>League of Legends:</strong> <a href="https://en.wikipedia.org/wiki/League_of_Legends_World_Championship" target="_blank">League of Legends World Championship</a></li>
+                    <li><strong>Apex Legends:</strong> <a href="https://apexlegends.fandom.com/wiki/ALGS_Championship_Sale" target="_blank">Apex Legends Global Series League</a></li>
+                    <li><strong>Valorant:</strong> <a href="https://en.wikipedia.org/wiki/2021_Valorant_Champions" target="_blank">Valorant Champions Tour</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="esportorgs" class="contentpage">
+            <h2>Esport Organizations</h2>
+            <img src="images/stem-list-FqewNnB378s-unsplash.jpg" alt="gaming lan house" class="centerimage">
+            <br>
+            <div class="textblock">
+                <h4>Esport Orgs:</h4>
+                <p>These are some esport organizations from the main regions (Click on names to get more info):</p>
+                <p>North America</p>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Team_SoloMid" target="_blank">Team SoloMid (TSM)</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Team_Liquid" target="_blank">Team Liquid</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/NRG_Esports" target="_blank">NRG</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Cloud9" target="_blank">Cloud9</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/100_Thieves" target="_blank">100 Thieves</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Sentinels_(esports)" target="_blank">Sentinels</a></li>
+                </ul>
+                <p>Europe</p>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/G2_Esports" target="_blank">G2 Esports</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Astralis" target="_blank">Astralis</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Fnatic" target="_blank">Fnatic</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/MAD_Lions" target="_blank">MAD Lions</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Rogue_(esports)" target="_blank">Rogue</a></li>
+                </ul>
+                <p>Asia</p>
+                <ul>
+                    <li><a href="https://lol.fandom.com/wiki/EDward_Gaming" target="_blank">EDward Gaming</a></li>
+                    <li><a href="https://lol.fandom.com/wiki/DWG_KIA" target="_blank">DAMWON Gaming (DWG KIA)</a></li>
+                    <li><a href="https://lol.fandom.com/wiki/T1" target="_blank">T1</a></li>
+                    <li><a href="https://lol.fandom.com/wiki/V3_Esports" target="_blank">V3 Esports</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="popgames" class="contentpage">
+            <h2>Popular Esport Games</h2>
+            <img src="images/pexels-rodnae-productions-7915289.jpg" alt="league of legends game" class="centerimage">
+            <br>
+            <div class="textblock">
+                <h4>These are some popular esport games:</h4>
+                <ul>
+                    <li>League Of Legends</li>
+                    <li>Apex Legends</li>
+                    <li>Valorant</li>
+                    <li>Fortnite</li>
+                    <li>Counter-Strike: Global Offensive</li>
+                    <li>Dota 2</li>
+                    <li>Super Smash Bros. Melee</li>
+                </ul>
+            </div>
+        </div>
+        <div id="esportsimpor" class="contentpage">
+            <h2>Esports Importance</h2>
+            <img src="images/josh-berendes-t6e0ntPJ1RE-unsplash.jpg" alt="league of legends game" class="centerimage">
+            <br>
+            <div class="textblock">
+                <h4>Esports Cultural Importance:</h4>
+                <p>
+                    Esports in my opinion has become one of the biggest sports to incorporate the public.
+                    Becoming a pro in esports doesn't require years upon years of training to gather the knowledge
+                    and skills to match those that are already in the pro scene. Anyone can essentially become a pro
+                    if they grab onto opportunities. However, that also means that pros are easily replaced but if you stay in a
+                    scene long enough you will forever be remembered and engraved into the games you play. Many players 
+                    cemented themselves in the game so much that the developers themselves put monuments in the game for the players.
+                </p>
+                <p>
+                    Its beautiful how intergrated the community is with the game and organizations of the pro scene. It is continuing
+                    to pave a path to create more intimate relationships between the sport and its people. Esports a great scene that
+                    continues to grow while still thinking of its audience.
+                </p>
+            </div>
         </div>
     </main>
 	<footer>
