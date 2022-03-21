@@ -1,0 +1,12 @@
+html
+{
+    background-image: url(images/);
+}
+body
+{
+	font-family: Helvetica, Georgia;
+	color: #642CA9;
+	background-color: #C0B9DD;
+	margin-left: 100px;
+	margin-right: 100px;
+}
