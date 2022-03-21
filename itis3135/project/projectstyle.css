@@ -1,0 +1,64 @@
+body
+{
+	font-family: Helvetica, Georgia;
+	color: #CFEE9E;
+	background-color: #587B7F;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+nav
+{
+	padding-top: 20px;
+	text-align: center;
+}
+a
+{
+	text-decoration: none;
+	color: #CFEE9E;
+	font-weight: bold;
+	font-size: 20px;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: #AAAE7F;
+}
+.bannerimage
+{
+	width: 450px;
+	height: 300px;
+}
+.bannertext
+{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.bannerbox
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-top: solid;
+	border-bottom: solid;
+}
+.bannerimagebox
+{
+	padding-top: 20px;
+	flex-basis: 30%;
+	padding-bottom: 20px;
+}
+.bannercaption
+{
+	font-size: 15px;
+}
+.navbardesign
+{
+	padding-right: 10px;
+}
+.signupbutton
+{
+	position: relative;
+	background-color: #5E0035;
+	border-radius: 5px;
+	border: 3px solid black;
+}
