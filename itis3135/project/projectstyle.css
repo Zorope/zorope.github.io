@@ -62,3 +62,29 @@ a:hover
 	border-radius: 5px;
 	border: 3px solid black;
 }
+.textblock
+{
+	background-color: #5E0035;
+	width: 550px;
+	position: relative;
+	border: solid;
+	margin-top: 20px;
+	padding-top: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 550px;
+	height: 150px;
+}
+.righttextblock
+{
+	background-color: #5E0035;
+	position: relative;
+	width: 550px;
+	border: solid;
+	margin-top: 20px;
+	padding-top: 2px;
+	padding-left: 5px;
+	left: 770px;
+	width: 550px;
+	height: 150px;
+}
