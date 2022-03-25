@@ -121,79 +121,32 @@ div.gallery img
 	height: auto;
 }
 /*end of gallery classes*/
-/*Slideshow classes for event page; source: https://www.w3schools.com/howto/howto_js_slideshow.asp*/
-* {box-sizing: border-box;}
-.slideshow-container
+/*Event boxes design*/
+.eventbox
 {
-	max-width: 1000px;
-	position: relative;
-	margin: auto;
+	background-color: #F0E2E7;
+	border: 4px solid black;
+	width: 150px;
+	height: 200px;
+	padding-left: 5px;
+	margin-top: 10px;
+	margin-right: 50px;
+	float: left;
+	display: inline;
 }
-.myslides
+/*End of Event boxes design*/
+/*Start of club leader designs*/
+.aboutimage
 {
-	display: none;
+	float: left;
+	width: 325px;
+	height: 375px;
+	margin-top: 5px;
 }
-.prev, .next
+.abouthead
 {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	margin-top: -22px;
-	padding: 16px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
 }
-.next
-{
-	right: 0;
-	border-radius: 3px 0 0 3px;
-}
-.prev:hover, .next:hover
-{
-	background-color: rgba(0,0,0,0.8);
-}
-.text
-{
-	color: #f2f2f2;
-	font-size: 15px;
-	padding: 8px 12px;
-	position: absolute;
-	bottom: 8px;
-	width: 100%;
-	text-align: center;
-}
-.numbertext
-{
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-}
-.dot
-{
-	cursor: pointer;
-	height: 15px;
-	width: 15px;
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 0.6s ease;
-}
-.active, .dot:hover
-{
-	animation-name: fade;
-	animation-duration: 1.5s;
-}
-@keyframes fade
-{
-	from {opacity: 0.4;}
-	to {opacity: 1;}
-}
-/*End of slideshow classes*/
+/*End of club leader designs*/
