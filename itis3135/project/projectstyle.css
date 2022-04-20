@@ -148,3 +148,7 @@ div.gallery img
 	margin-left: 50px;
 }
 /*End of club leader designs*/
+label {
+    display: inline-block;
+    width: 5em;
+  }

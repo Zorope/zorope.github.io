@@ -4,6 +4,10 @@
 	<meta charset="UTF-8">
     <title>Sign Up</title>
 	<link href="projectstyle.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <script src="scripts/signup.js"></script>
 </head>
 <body>
 	<header>
@@ -30,18 +34,32 @@
         <h2>Sign Up Form:</h2>
         <form action = "#">
             <label>Name:</label>
-            <input type = "text" id = "name" name = "name">
+            <input type = "text" id = "name" name = "name" title="Please Enter your full name here.">
             <br>
             <br>
             <label>Email:</label>
-            <input type = "text" id = "email" name = "email">
+            <input type = "text" id = "email" name = "email" title="Enter whatever email you are comfortable with!">
             <br>
             <br>
             <label>Phone Number:</label>
-            <input type = "text" id = "phonenum" name = "phonenum">
+            <input type = "text" id = "phonenum" name = "phonenum" title="This will help us contact you!">
             <br>
             <br>
-            <label><strong>Experience with hiking:</strong></label>
+            <label>Age:</label>
+            <input type = "text" id = "age" name = "age" title="This is to help us understand our communities age!">
+            <br>
+            <br>
+            <strong>Are you a student at Western Carolina?</strong>
+            <br>
+            <br>
+            <input type = "radio" id = "yes" name = "student" value = "yes">
+            <label for = "beginner">Yes</label>
+            <br>
+            <input type = "radio" id = "no" name = "student" value = "no">
+            <label for = "beginner">No</label>
+            <br>
+            <br>
+            <strong>Experience with hiking:</strong>
             <br>
             <input type = "radio" id = "beginner" name = "level" value = "beginner">
             <label for = "beginner">beginner</label>
