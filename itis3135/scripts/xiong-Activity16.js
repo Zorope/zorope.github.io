@@ -4,7 +4,7 @@ $(document).ready(function(){
     $.getJSON(url, function(data){
         var html = "";
         $.each(data.items, function(i, item){
-            html += "<img src=" + item.media.m + ">";
+            html += "<a href = " + item.media.m + " data-lightbox= " + item.title + " data-title=" + item.tags +">"+ "<img src=" + item.media.m + "></a>";
         });
     $("#new_building").html(html);
     });
